@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.0">
+    <!-- GENERATED WITH OTRS::OPM::Maker::Command::sopm (1.4) -->
+    <Name>HideTimeZone</Name>
+    <Version>6.0.1</Version>
+    <Framework>6.0.x</Framework>
+    <Vendor>Perl-Services.de</Vendor>
+    <URL>https://www.perl-services.de</URL>
+    <Description Lang="de">Zeige die Zeitzone auch dann nicht, wenn die Zeitzone des Users sich von der OTRSTimeZone unterscheidet</Description>
+    <Description Lang="en">Do not show timezone after date, even when user's timezone is different to the OTRSTimeZone</Description>
+    <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
+    <Filelist>
+        <File Permission="644" Location="Custom/Kernel/Language.pm" />
+    </Filelist>
+</otrs_package>

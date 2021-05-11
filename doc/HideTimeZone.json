@@ -1,0 +1,19 @@
+{
+    "name": "HideTimeZone",
+    "version": "6.0.1",
+    "framework": [
+        "6.0.x"
+    ],
+    "vendor": {
+        "name":  "Perl-Services.de",
+        "url": "https://www.perl-services.de"
+    },
+    "license": "GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007",
+    "description" : {
+        "en": "Do not show timezone after date, even when user's timezone is different to the OTRSTimeZone",
+        "de": "Zeige die Zeitzone auch dann nicht, wenn die Zeitzone des Users sich von der OTRSTimeZone unterscheidet"
+    },
+    "exclude_files" : [
+        "doc/HideTimeZone.json"
+    ]
+}
